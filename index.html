@@ -7,16 +7,42 @@
     <title>Document</title>
   </head>
   <body>
-    <ul type="square">
-      <li>Ayda</li>
-      <li>Hanie</li>
-      <li>Amir</li>
-    </ul>
-
-    <ol type="I">
-        <li>Ayda</li>
-        <li>Hanie</li>
-        <li>Amir</li>  
-    </ol>
+    ,
+    <fieldset>
+      <form action="set">
+        <h2>This is Form</h2>
+        <label for="Name">Name</label>
+        <input
+          type="text"
+          name="Name"
+          id="Name"
+          placeholder="write your name"
+        /><br /><br />
+        <label for="Password">Password</label>
+        <input
+          type="password"
+          namw="Password"
+          id="Password"
+          placeholder="write your password"
+        /><br /><br />
+        <label for="Email">Email</label>
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="write your email"
+        /><br /><br />
+        <input type="button" value="Submit" named="Submit" />
+      </form>
+    </fieldset>
+    <fieldset>
+      <label for="select">choose your color</label>
+      <select name="select" id="select">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="black">Black</option>
+      </select>
+    </fieldset>
   </body>
 </html>
